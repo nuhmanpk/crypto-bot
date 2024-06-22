@@ -14,6 +14,7 @@ class Database:
     
     async def add_user(self, id):
         user = self.new_user(id)
+        print("🚲 ~ database.py:16 -> user: ",  user)
         await self.col.insert_one(user)
     
     async def get_user(self, id):

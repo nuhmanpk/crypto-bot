@@ -1,9 +1,11 @@
 import cryptocompare
-from .admin import get_user
+from .database import db
+
 
 # Fetch the current price of a cryptocurrency
 async def get_crypto_price(symbol,user_id):
-    user = await get_user(user_id)
+    user = await db.get_user(id)
+    print("🚄 ~ crypto_utils.py:6 -> user: ",  user)
     price = cryptocompare.get_price(symbol.upper(), currency=user.currency)
     if price:
         return f"The current price of {symbol.upper()} is ${price[symbol.upper()]['USD']:.2f}"
