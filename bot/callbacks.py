@@ -15,7 +15,7 @@ async def cb_data(_, message):
     elif message.data == "about":
         await about(_, message, cb=True)
     elif message.data == "settings":
-        await message.d
+        await message.message.reply('TODO: Settings')
     elif message.data == "close":
         await message.message.delete()
 
