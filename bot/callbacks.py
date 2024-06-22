@@ -7,6 +7,7 @@ from .commands import start, help, about
 
 @Client.on_callback_query()
 async def cb_data(_, message):
+    await message.message.delete()
     await add_user(message.from_user.id)
     if message.data == "home":
         await start(_, message, cb=True)
