@@ -18,6 +18,9 @@ async def add_user(id):
         await db.add_user(id)
     return
 
+async def get_user(id):
+    await db.get_user(id)
+    return
 
 async def send_msg(user_id, message):
     try:

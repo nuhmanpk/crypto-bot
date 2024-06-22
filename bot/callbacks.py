@@ -1,7 +1,6 @@
-from .database import db
+from bot.buttons import SETTINGS_BUTTONS
 from .admin import add_user
-from pyrogram import Client
-from pyrogram.types import InlineKeyboardMarkup
+from pyrogram import Client, filters
 from .commands import start, help, about
 
 
@@ -15,5 +14,15 @@ async def cb_data(_, message):
         await help(_, message, cb=True)
     elif message.data == "about":
         await about(_, message, cb=True)
+    elif message.data == "settings":
+        await message.d
     elif message.data == "close":
         await message.message.delete()
+
+
+@Client.on_message(filters.private & filters.command(["settings"]))
+async def settings(bot, message):
+    await message.reply_text(
+        "Settings:",
+        reply_markup=SETTINGS_BUTTONS
+    )

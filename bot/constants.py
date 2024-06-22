@@ -27,7 +27,7 @@ CryptoBot 🌟
 CryptoBot is a Telegram bot built with Pyrogram that helps you stay updated on cryptocurrency prices and trends.
 
 Version: 1.0
-Developer: [Your Name or Company Name]
+Developer: @bughunter0
 
 Feel free to reach out with any feedback or suggestions!
 
