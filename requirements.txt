@@ -1,0 +1,6 @@
+pyrogram
+tgcrypto
+motor
+aiofiles
+dnspython
+python-decouple
