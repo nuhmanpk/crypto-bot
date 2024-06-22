@@ -4,7 +4,7 @@ Hello! Welcome to CryptoBot 🤖
 I can help you stay updated on cryptocurrency prices and trends.
 
 Use /price <symbol> to get the current price of a cryptocurrency.
-For example: /price BTC
+For example: \n `/price BTC`, `/price ETH`, `/price DOGE`
 
 Use /trending to see the trending cryptocurrencies.
 
