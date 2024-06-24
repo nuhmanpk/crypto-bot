@@ -27,8 +27,10 @@ Here are some commands you can use:
 /trending - See the trending cryptocurrencies.
 /historical <symbol> [day/hour] - `/historical BTC day`.
 /coin <symbol> `/coin bitcoin`.
-/exchanges - Get Top exchanges
-/market_data - `/market_data DOGECOIN`
+/exchanges - Get Top exchanges.
+/market_data - `/market_data DOGECOIN`.
+/exchange_rates - Get Top exchange rates.
+/exchange <symbol> - Get Exchange Value for a coin. `/exchange DOGECOIN`.
 
 That's it for now! Enjoy using CryptoBot! 🚀
 """
