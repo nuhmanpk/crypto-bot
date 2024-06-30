@@ -40,6 +40,7 @@ Crypto-Bot is a Telegram bot built using Pyrogram that allows users to fetch the
     DATABASE_NAME=your-database-name
     SESSION_STRING=your-session-string
     ```
+    Generate session string from [here](https://gist.github.com/nuhmanpk/5b2b29fcecd479754c599c36c0961363)
 
 ## Usage
 

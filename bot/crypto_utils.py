@@ -165,7 +165,6 @@ async def fetch_live_prices(symbols, currency):
                     )
 
             if prices:
-                print(f"🍦 Fetched live prices: {prices}")
                 return prices
             else:
                 print(f"❌ No valid prices fetched for any symbol.")
@@ -200,6 +199,5 @@ def format_prices_message(symbols, current_prices, prev_prices):
             )
         else:
             messages.append(f"⏳ Fetching {symbol.upper()} price")
-    print("🌈 ~ crypto_utils.py:196 -> messages: ", messages)
 
     return "\n".join(messages)
