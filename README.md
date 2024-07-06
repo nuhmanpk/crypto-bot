@@ -1,9 +1,10 @@
 # Crypto-Bot
 
-Crypto-Bot is a Telegram bot built using Pyrogram that allows users to fetch the latest cryptocurrency prices, trending cryptocurrencies, and historical data. The bot also supports user-specific settings such as preferred currency for price display.
+Crypto-Bot is a Ope source Telegram bot built using Pyrogram that allows users to fetch the latest cryptocurrency prices, trending cryptocurrencies, and historical data. The bot also supports user-specific settings such as preferred currency for price display.
 
 <img src='./assets/logo.jpeg' max-width=25px max-height=25px/>
 
+<img src='./assets//demo.gif' max-width=20px max-height=20px>
 
 ## Features
 
@@ -40,7 +41,11 @@ Crypto-Bot is a Telegram bot built using Pyrogram that allows users to fetch the
     DATABASE_NAME=your-database-name
     SESSION_STRING=your-session-string
     ```
-    Generate session string from [here](https://gist.github.com/nuhmanpk/5b2b29fcecd479754c599c36c0961363)
+    - Generate `SESSION_STRING` from [here](https://gist.github.com/nuhmanpk/5b2b29fcecd479754c599c36c0961363)
+    - Get `DATABASE_URL` url from [here](https://mongodb.com)
+    - Get `API_ID` and `API_HASH` from [here](https://api.telegram.org)
+    - Give a `DATABASE_NAME` as you wish
+    - Get `BOT_TOKEN` from [here](https://t.me/botfather)
 
 ## Usage
 
@@ -59,4 +64,10 @@ Crypto-Bot is a Telegram bot built using Pyrogram that allows users to fetch the
     - **/historical [symbol] [timeframe]**: Get historical data for the specified cryptocurrency and timeframe (day or hour).
     - **/setcurrency [currency_code]**: Set your preferred currency for price displays.
     - **Settings ⚙️**: Use the settings button to change preferences like your preferred currency.
+    - And [more](https://t.me/bughunterbots) ...
 
+- If you find this bot useful mark your star and fell free to contribute
+
+Happy Coding! 🚀
+
+Built with ❤️ by Nuhman Pk © 2024
