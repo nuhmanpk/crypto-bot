@@ -2,8 +2,6 @@
 
 Crypto-Bot is a Ope source Telegram bot built using Pyrogram that allows users to fetch the latest cryptocurrency prices, trending cryptocurrencies, and historical data. The bot also supports user-specific settings such as preferred currency for price display.
 
-<img src='./assets/logo.jpeg' max-width=25px max-height=25px/>
-
 <img src='./assets//demo.gif' max-width=20px max-height=20px>
 
 ## Features
@@ -56,6 +54,8 @@ Crypto-Bot is a Ope source Telegram bot built using Pyrogram that allows users t
     ```bash
     python main.py
     ```
+
+<img src='./assets/logo.jpeg' max-width=25px max-height=25px/>
 
 2. **Interact with the bot:**
 
