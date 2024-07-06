@@ -10,6 +10,7 @@ Crypto-Bot is a Ope source Telegram bot built using Pyrogram that allows users t
 - **Trending Cryptocurrencies:** View the top 10 trending cryptocurrencies.
 - **Historical Data:** Fetch historical price data for cryptocurrencies by day or hour.
 - **User Settings:** Set and update your preferred currency for price displays.
+- **Live Price Fetching** : Get live datas instantly.
 - **Inline Keyboard Support:** Use inline keyboards for easy navigation and settings adjustments.
 
 ## Installation
@@ -64,6 +65,11 @@ Crypto-Bot is a Ope source Telegram bot built using Pyrogram that allows users t
     - **/price [symbol]**: Get the current price of the specified cryptocurrency.
     - **/trending**: View the top 10 trending cryptocurrencies.
     - **/historical [symbol] [timeframe]**: Get historical data for the specified cryptocurrency and timeframe (day or hour).
+    - **/live_prices** - Fetch Live Price
+    - **/exchange [symbol]** - Get exchange details.
+    - **/exchange_rates** -  Get all exchange dates.
+    - **/exchanges** -  Get all exchanges.
+    - **/coin** -  Get all coin details.
     - **/setcurrency [currency_code]**: Set your preferred currency for price displays.
     - **Settings ⚙️**: Use the settings button to change preferences like your preferred currency.
     - And [more](https://t.me/bughunterbots) ...
