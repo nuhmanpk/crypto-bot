@@ -40,12 +40,14 @@ Crypto-Bot is a Ope source Telegram bot built using Pyrogram that allows users t
     DATABASE_URL=your-database-url
     DATABASE_NAME=your-database-name
     SESSION_STRING=your-session-string
+    ADMINS = 1234556
     ```
     - Generate `SESSION_STRING` from [here](https://gist.github.com/nuhmanpk/5b2b29fcecd479754c599c36c0961363)
     - Get `DATABASE_URL` url from [here](https://mongodb.com)
     - Get `API_ID` and `API_HASH` from [here](https://api.telegram.org)
     - Give a `DATABASE_NAME` as you wish
     - Get `BOT_TOKEN` from [here](https://t.me/botfather)
+    - Add user id of admins as `ADMINS` serperated by whitespaces.
 
 ## Usage
 
