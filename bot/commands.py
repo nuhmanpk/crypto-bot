@@ -154,7 +154,7 @@ async def exchange_rates(bot, message):
 
 
 @Client.on_message(filters.private & filters.command(["exchange"]))
-async def coin_market_data(bot, message):
+async def exchange(bot, message):
     txt = await message.reply("⏳ Fetching market data...")
     symbol = message.command[1] if len(message.command) > 1 else None
     if symbol:
